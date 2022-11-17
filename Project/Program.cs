@@ -59,6 +59,8 @@ namespace project
                 Console.Write(ints[i] + ", ");
 
             }
+            Console.WriteLine("Test environment. Just check the Git changes instantly");
+
         }
     }
 }
