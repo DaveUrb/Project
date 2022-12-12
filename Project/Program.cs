@@ -16,6 +16,7 @@ namespace project
             Console.Clear();
             Console.WriteLine("Kasjerkomat 1.0");
             Console.WriteLine("Rozpocznij od pierwszego klienta.");
+            Console.ReadLine();
             string ChosenProduct="";
             double ChosenProductPr1pc = 0;
             double ChosenProductPr1kg = 0;
@@ -93,7 +94,7 @@ namespace project
                 ShowProducts();
                 //Wybierz produkt
                 Console.Write("Wskaż wybrany produkt:");
-                int Choice1 = Convert.ToInt32(Console.ReadLine());
+                int Choice1 = int.Parse(Console.ReadLine());
                 switch(Choice1)
                 {
                     case 1:
